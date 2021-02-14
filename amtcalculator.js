@@ -1,5 +1,5 @@
 //Calculate Tip
-function calculateTip() {
+function calculateAmt() {
 var billAmt = document.getElementById("billamt").value;
   var serviceQual = document.getElementById("serviceQual").value;
   var numOfPeople = document.getElementById("peopleamt").value;
@@ -13,7 +13,7 @@ var billAmt = document.getElementById("billamt").value;
 
  var  total=billAmt/numOfPeople;
  
- document.getElementById("tip").innerHTML = total;
+ document.getElementById("Amt").innerHTML = total;
 
 
 
