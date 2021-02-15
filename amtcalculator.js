@@ -17,6 +17,7 @@ if(numOfPeople==0 ){
   return false;
  }
 
+
  var  total=billAmt/numOfPeople;
  
  document.getElementById("Amt").innerHTML = total;
