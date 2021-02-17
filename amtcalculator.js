@@ -5,8 +5,11 @@ var billAmt = document.getElementById("billamt").value;
   var numOfPeople = document.getElementById("peopleamt").value;
 
 
+var val= document.getElementById("serviceQual").value;
+
+console.log(val);
+
 if(numOfPeople==0 ){
-     
      numOfPeople=1;
   }
 
@@ -16,7 +19,6 @@ if(numOfPeople==0 ){
   alert("Please enter vaild details");
   return false;
  }
-
 
  var  total=billAmt/numOfPeople;
  
